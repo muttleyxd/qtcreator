@@ -5,6 +5,8 @@
   <style name="Selection" background="#44475a"/>
   <style name="LineNumber" foreground="#6272a4"/>
   <style name="SearchResult" foreground="#d57544" bold="true"/>
+  <style name="SearchResultAlt1" foreground="#000033" background="#b6ccff"/>
+  <style name="SearchResultAlt2" foreground="#330000" background="#ffb6cc"/>
   <style name="SearchScope" foreground="#000000" background="#f8f8f2"/>
   <style name="Parentheses" foreground="#f8f8f2" background="#51556b" bold="true"/>
   <style name="ParenthesesMismatch" foreground="#f8f8f2" background="#51556b"/>
@@ -17,7 +19,9 @@
   <style name="Number" foreground="#bd93f9"/>
   <style name="String" foreground="#f1fa8c"/>
   <style name="Type" foreground="#7ce4fb"/>
+  <style name="Namespace" foreground="#7ce4fb"/>
   <style name="Local" foreground="#ffffff"/>
+  <style name="Parameter" foreground="#f5c211"/>
   <style name="Global" foreground="#ffb86c"/>
   <style name="Field" foreground="#ffffff"/>
   <style name="Static" foreground="#ffb86c"/>
@@ -57,6 +61,11 @@
   <style name="DiffDestLine" foreground="#282a36" background="#50fa7b"/>
   <style name="DiffDestChar" foreground="#282a36" background="#1dc748"/>
   <style name="LogChangeLine" foreground="#ff5555"/>
+  <style name="LogAuthorName" foreground="#007af4"/>
+  <style name="LogCommitDate" foreground="#006600"/>
+  <style name="LogCommitHash" foreground="#ff0000"/>
+  <style name="LogCommitSubject"/>
+  <style name="LogDecoration" foreground="#ff00ff"/>
   <style name="Warning" underlineColor="#ffb86c" underlineStyle="SingleUnderline"/>
   <style name="WarningContext" underlineColor="#ffb86c" underlineStyle="DotLine"/>
   <style name="Error" underlineColor="#ff5555" underlineStyle="SingleUnderline"/>
@@ -64,4 +73,5 @@
   <style name="Declaration" bold="true"/>
   <style name="FunctionDefinition"/>
   <style name="OutputArgument" italic="true"/>
+  <style name="StaticMember"/>
 </style-scheme>
